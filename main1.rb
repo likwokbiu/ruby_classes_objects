@@ -1,6 +1,6 @@
 require './bankaccount.rb'
 
-bill = BankAccount.new(500, 0.03)
+bill = BankAccount.new(500, 3)
 puts "Balance: #{bill.balance}"
 
 bill.deposit = (75)
