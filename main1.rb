@@ -1,4 +1,4 @@
-require './BankAccount.rb'
+require './bankaccount.rb'
 
 bill = BankAccount.new(500, 0.03)
 puts "Balance: #{bill.balance}"
